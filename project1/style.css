@@ -1,0 +1,63 @@
+footer{
+   background-color: mediumpurple; 
+}
+
+.jumbotron{
+   background-color: mediumpurple;
+   color:floralwhite;
+}
+.container{
+    padding:20px 40px;
+}
+
+.row-content{
+    border-bottom: 1px ridge rgb(155, 141, 141);
+    padding:40px 0px;
+}
+.end-content{
+    padding:40px 0px;
+}
+.navbar{
+    background-color: indigo;
+}
+#Loginbtn{
+    color:floralwhite;
+}
+.tab-content{
+    border:1px ridge black;
+    padding:10px;
+}
+body{
+    padding:80px 0px;
+}
+#my_carousel{
+    background-color: rebeccapurple;
+}
+.carousel-item {
+    height: 250px;
+}
+  
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 250px;
+}
+
+#carousel-buttons{
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+    z-index: 1;
+}
+
+input[type="radio"]{
+    margin: 0 20px 0 20px;
+}
+.modal-header{
+    color:floralwhite;
+    background-color: indigo;
+}
+.modal-body{
+    background-color: rgb(206, 182, 255);
+}
