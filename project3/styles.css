@@ -1,0 +1,233 @@
+/**navbar**/
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+a.active{
+  border:1px solid black;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 4px white;
+}
+body#home{
+    height:100%;
+    background-image:url("b2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body#Mycategory,body#About,body#Service{
+  height:100%;
+  background-color:black;
+  position: relative;
+}
+.navbar-brand p{
+    font-family: fantasy;
+    font-size: 50px;
+    color: ivory;
+    font-weight: 800;
+    margin-top: 18px;
+    text-shadow: 2px 2px 4px brown;
+}
+#species-body .navbar-brand p{
+  font-family: fantasy;
+  font-size: 50px;
+  color:brown;
+  font-weight: 500;
+  margin-top: 18px;
+  text-shadow: 2px 2px 4px white;
+}
+  .navbar-brand p:hover{
+    font-size: 53px;
+
+  }
+  .navbar-toggler{
+      border:2px solid white;
+  }
+  .navbar-nav{
+    margin-top: -10px;
+  }
+  .nav-link{
+    color:white;
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px black;
+  }
+  #species-body .nav-link{
+    color:black;
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px white;
+  }
+  
+  .nav-link:hover{
+    color: maroon;
+    font-size: 22px;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px white;
+  }
+  /**main-content**/
+  #main-content{
+    text-align: center;
+    color: #fff;
+    margin-top: 80px;
+    text-shadow: 3px 3px 5px violet;
+  }
+  #main-content h1{
+    font-size:55px;
+  }
+  
+  /*categories*/
+  #category{
+    position: relative;
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px white;
+  }
+  #category:hover{
+    box-shadow: 2px 2px 1px 10px yellow;
+  }
+  #category #category-name{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    opacity: .8;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bolder;
+  }
+  
+
+  /***Species***/
+  body#species-body{
+    background-color: snow;
+  }
+  #species-body div.navbar-brand  p{
+    font-family: fantasy;
+    font-size: 50px;
+    color: brown;
+    font-weight: 800;
+    margin-top: 18px;
+    text-shadow: 1px 1px 1px whitesmoke;
+
+  }
+  #species-body div.navbar-brand a{
+    text-decoration: none;
+  }
+  #species-body header{
+    background-color: ivory;
+  }
+  #species-body nav button.navbar-toggler{
+    border:2px solid black;
+}
+#note{
+  color:red;
+  font-size:12px;
+}
+/***About**/
+#About{
+  color: #fff;
+}
+#about-note{
+  color: greenyellow;
+  font-size: 20px;
+}
+
+/**Service**/
+#Service #running-text{
+    color:#fff;
+    font-size:20px;
+}
+
+.fa-smile-wink,.fa-grin-beam{
+  color: yellow;
+  margin-right: 3px;
+  font-size: 25px;
+  margin-left:3px;
+}
+.fa-plane{
+  color: ivory;
+  text-shadow: 2px 2px 3px red;
+  margin-right: 3px;
+  font-size: 25px;
+}
+#Service #description{
+  color: cornsilk;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.fa-user-tie{
+  color: lime;
+  font-size: 25px;
+  margin-right: 3px;
+}
+#service-note{
+  font-size: 20px;
+  color: red;
+}
+label.form-label{
+   border:1px solid white;
+   padding:5px 10px 5px 10px;
+   border-radius: 10px;
+   height: 40px;
+}
+
+/**footer***/
+footer{
+  position: relative;
+  width: 100%;
+  background-color: khaki;
+  bottom: 0;
+  color: black;
+}
+footer#home{
+  position: fixed;
+  width: 100%;
+  background-color: khaki;
+  bottom: 0;
+  color: black;
+}
+footer .social-media a{
+  font-size: 25px;
+}
+.fa-instagram{
+  background-color: red;
+  border-radius: 3px;
+  color:white;
+  padding:2px;
+}
+.fa-facebook{
+  background-color: darkblue;
+  border-radius: 3px;
+  color:white;
+  padding:2px;
+}
+.fa-whatsapp{
+  background-color:green;
+  border-radius: 3px;
+  color:white;
+  padding:2px;
+}
+.fa-twitter{
+  background-color:blue;
+  border-radius: 3px;
+  color:white;
+  padding:2px;
+}
+
+@media (min-width: 1200px){
+  #About footer,#Mycategory footer{
+    position: fixed;
+    width: 100%;
+    background-color: khaki;
+    bottom: 0;
+    color: black;
+  }
+
+}
+
+  
+  
+  

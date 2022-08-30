@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="styles.css">
+    <title>VAC-Website_with_Html_CSS_Js_B5</title>
+</head>
+<body id="Service">
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <div class="container">
+
+                <div class="navbar-brand">
+                   <p>Mysteria</p>
+                </div>
+                <button class="navbar-toggler" data-bs-target="#navitems" data-bs-toggle="collapse">
+                   <span class="fa fa-bars text-white"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navitems">
+                    <ul class="nav navbar-nav ms-auto ">
+                        <li class="nav-item mx-auto"><a class="nav-link" href="index.html"><span class="fa fa-home me-2"></span>Home</a></li>
+                        <li class="nav-item mx-auto"><a class="nav-link" href="About.html"><span class="fa fa-info-circle me-2"></span>About</a></li>
+                        <li class="nav-item mx-auto"><a class="nav-link" href="categories.html"><span class="fa fa-list-ul me-2"></span>Categories</a></li>
+                        <li class="nav-item mx-auto"><a class="nav-link active" href="#"><span class="fa fa-user me-2"></span>Services</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav> 
+    </header>
+
+    <div class="container text-center text-white">
+        <marquee id="running-text"><span class="fas fa-smile-wink"></span>Hope you liked our website<span class="fas fa-grin-beam"></span></marquee>
+        <marquee id="running-text" direction="right" behavior="alternate"><span class="fas fa-plane"></span>Join in our trip this year --September.</marquee>
+        <p id="description">We are organising a trip to the places you have visited now.<br>
+        If your want to come and explore the beauty of the world</p>
+        <p style="color: brown; text-shadow: 1px 1px 1px white;font-size: 23px;" >Fill this form</p>
+        
+        <form>
+            <div class="row justify-content-center mt-3">
+                <div class="col-4 col-md-2"><label class="form-label" for="Fname">First Name</label></div>
+                <div class="col-6 col-md-5"><input class="form-control" id="Fname" type="text"></div>
+            </div>
+
+            <div class="row justify-content-center mt-3">
+                <div class="col-4 col-md-2"><label class="form-label" for="Lname">Last Name</label></div>
+                <div class="col-6 col-md-5"><input class="form-control" id="Lname" type="text"></div>
+            </div>
+
+            <div class="row justify-content-center mt-3">
+                <div class="col-4 col-md-2"><label class="form-label" for="Location">Location</label></div>
+                <div class="col-6 col-md-5"><input class="form-control" id="Location" type="text"></div>
+            </div>
+
+            <div class="row justify-content-center mt-3">
+                <div class="col-4 col-md-2"><label class="form-label" for="phno">Mobile Number</label></div>
+                <div class="col-6 col-md-5"><input class="form-control" id="phno" type="number"></div>
+            </div>
+
+            <div class="row justify-content-center mt-3">
+                <div class="col-4 col-md-2"><label class="form-label" for="email">Email Id</label></div>
+                <div class="col-6 col-md-5"><input class="form-control" id="email" type="email"></div>
+            </div>
+
+            <div class="row justify-content-center mt-3">
+                <div class="col-4 col-md-2"><button class="btn btn-primary" type="submit">Submit</button></div>
+                <div class="col-4 col-md-2"><button class="btn btn-warning col-auto" type="reset">Reset</button></div>
+                <div class="col-4 col-md-2"><button class="btn btn-danger  col-auto" type="cancel">Cancel</button></div>
+            </div>
+        </form>
+        <div id="service-note" class="mb-5 mt-4">
+            <span class="fas fa-user-tie"></span>Our Experts will contact you sooner....
+        </div>
+        
+        <div id="query">
+            <p>For any query <a href="tel:"><button class="btn btn-info">Call us 24/7</button></a></p>
+        </div>
+           
+    </div>
+
+    <footer>
+        <div class="container text-center">
+            <span class="fs-4 me-2">Connect with us in</span>
+            <span class="social-media">
+                <a href="#"><span class="fab fa-instagram me-1"></span></a>
+                <a href="#"><span class="fab fa-facebook me-1"></span></a>
+                <a href="#"><span class="fab fa-whatsapp me-1"></span></a>
+                <a href="#"><span class="fab fa-twitter me-1"></span></a>
+            </span>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
