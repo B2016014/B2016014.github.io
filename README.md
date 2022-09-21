@@ -4,15 +4,15 @@
 
 #PROJECT 1
 
-    This project is a "responsive Restaurant Website" which was built using Bootstrap4.
+    A "responsive Restaurant Website" which was built using most of all the components in  Bootstrap4.
     
 #PROJECT 2
 
-    In this project we built a responsive Restaurant Website with HTML,CSS and Bootstrap5.
+    A responsive Restaurant Website with HTML,CSS and Bootstrap5.
     
 #PROJECT 3
      
-    This is a "website mini project" on mysterious things.
+    This is a "website mini project-(mysterious things)".
     
     TOOLS:
        HTML
