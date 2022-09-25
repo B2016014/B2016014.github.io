@@ -17,8 +17,6 @@
     TOOLS:
        HTML
        CSS
-       Javascript
-       Bootstrap5
        
 #PROJECT 4
    
