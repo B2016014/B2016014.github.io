@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/bootstrap-social.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <link rel="stylesheet" href="style.css">
     <title>Home page</title>
 </head>
@@ -136,17 +136,22 @@
 
     <header class="jumbotron">
         <div class="container">
-            <div class="row">
+            <div class="row ">
                 <div class="col-sm-6">
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-
+                
                 <div class="col-12 col-sm-6 col-md-3 align-self-center" align="center">
-                    <img src="img/logo.png" alt="logo" >
+                    <img src="img/logo.png" alt="logo">
                 </div>
 
-                <div class="col-12 col-sm-12 col-md align-self-center">
+                <!-- <div class="col-12 mt-3 col-sm-4 align-self-center">
+                  <a role="button" href="#Reservetable" class="btn btn-block  btn-warning" 
+                   data-toggle="tooltip" data-html="true" data-placement="bottom"  title="Or Call us at <br><strong>+852 12345678</strong>" 
+                   >Reserve Table</a>
+                </div>-->
+                <div class="col col-sm col-md align-self-center" >
                     <button class="btn btn-block btn-warning" id="Reservebtn" >Reserve Table</button>
                 </div>
             </div>
@@ -220,14 +225,14 @@
         </div>
         
         <div class="row row-content align-items-center">
-            <h2 class="col-12 col-sm-4 col-md-3">This Month's Promotions</h2>
-            <div class="col col-sm col-md">
-                <div class="media">
+            <h2 class="col-12 col-sm-4 col-md-3 order-sm-first">This Month's Promotions</h2>
+            <div class="col col-sm col-md order-sm-last">
+                <div class=" d-flex media">
                     <div class="media-body">
                         <h1>Weekend Grand Buffet<span class="badge badge-danger">New</span></h1>
                         <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person</p>
                     </div>
-                    <img src="img/buffet.png" alt="Buffet" class="mr-3 align-self-center img-thumbnail">
+                    <img src="img/buffet.png" alt="Buffet" class="align-self-center img-thumbnail">  
                 </div>
             </div>
         </div>
@@ -235,8 +240,8 @@
         <div class="row end-content align-items-center">
             <h2 class="col-12 col-sm-2 col-md-3 order-sm-last ">Meet our Culinary Specialists</h2>
             <div class="col col-sm col-md order-sm-first">
-                <div class=" d-felx media">
-                    <img src="img/alberto.png" alt="alberto" class="img-thumbnail mr-3 align-self-center rounded">
+                <div class=" media">
+                    <img src="img/alberto.png" alt="alberto" class="d-flex img-thumbnail mr-3 align-self-center rounded">
                     <div class="media-body">
                         <h1>Alberto Somayya</h1>
                         <h3>Executive Chef</h3>
@@ -291,9 +296,9 @@
      </footer>
  
 
-    <script src="js/jquery.slim.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script>
         /*$(document).ready(function(){
             $('[data-toggle="tooltip"]').tooltip();
