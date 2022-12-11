@@ -8,7 +8,16 @@
     
 #PROJECT 2
 
-    A responsive Restaurant Website with HTML,CSS and Bootstrap5.
+    A responsive Restaurant Website 
+    
+    Tools Used:
+    
+        Html
+        Css
+        Javascript
+        Bootstrap5
+        Ajax
+        Firebase
     
 #PROJECT 3
      
