@@ -1,6 +1,6 @@
 # B2016014.github.io
 
-"It contains some projects and mini projects in web Developement"-----Front End
+"It contains some projects and mini projects in web Developement"
 
 #PROJECT 1
 
